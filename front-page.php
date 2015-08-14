@@ -1,7 +1,11 @@
 <?php get_header(); ?>
 
   <?php 
-	// Se houver o widget criado
+   	// Desafio 3, proposta de melhoria
+	// Proposta de edição do banner através de um widget
+	// No Painel de administração do Site, deve ser colocado um widget de texto na área de Banner.
+	// O HTML desejado deve ser colocado dentro do widget do tipo Texto.
+	// Se houver o widget criado, ele é carregado
 	if ( is_active_sidebar( 'widget-banner' ) ) {
     	dynamic_sidebar( 'widget-banner' );
 	} else {
